@@ -39,10 +39,10 @@
             <h1>JHON RIDER</h1>
             <h2>Estudiante Administracion y Sistemas</h2>
             <div class="redes">
-                <a href="https://www.facebook.com/profile.php?id=100088934373559"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://www.instagram.com/rid3r.prd/"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://w.app/dashboard/"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100088934373559" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/rid3r.prd/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://w.app/dashboard/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/RaiCoder123" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
 
@@ -125,10 +125,29 @@
                     </div>
                 </div>
             </div>
-            <button>
-                Descargar CV <a href="doc/CV JHON RIDER.pdf" download="CV JHON PRADO"><i class="fa-solid fa-download"></i></a>
-                <span class="overlay"></span>
-            </button>
+            <a href="doc/CV JHON RIDER.pdf" target="_blank" download class="download-link">
+                <button class="button">
+                  <svg
+                    stroke-linejoin="round"
+                    stroke-linecap="round"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    viewBox="0 0 24 24"
+                    height="40"
+                    width="40"
+                    class="button__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path fill="none" d="M0 0h24v24H0z" stroke="none"></path>
+                    <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
+                    <path d="M7 11l5 5l5 -5"></path>
+                    <path d="M12 4l0 12"></path>
+                  </svg>
+                  <span class="button__text">Download CV</span>
+                </button>
+              </a>
+              
         </div>
     </section>
 
@@ -144,7 +163,7 @@
                         <span>Javascript</span>
                         <div class="barra-skill">
                             <div class="progreso ">
-                                <span>40%</span>
+                                <span>70%</span>
                             </div>
                         </div>
                     </div>
@@ -152,7 +171,7 @@
                         <span>HTML & CSS</span>
                         <div class="barra-skill">
                             <div class="progreso ">
-                                <span>60%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
@@ -168,15 +187,15 @@
                         <span>Microsoft Office</span>
                         <div class="barra-skill">
                             <div class="progreso ">
-                                <span>70%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Adobe Premiere</span>
+                        <span>SQL Server</span>
                         <div class="barra-skill">
                             <div class="progreso ">
-                                <span>40%</span>
+                                <span>60%</span>
                             </div>
                         </div>
                     </div>
@@ -188,7 +207,7 @@
                         <span>Comunicación</span>
                         <div class="barra-skill">
                             <div class="progreso ">
-                                <span>80%</span>
+                                <span>90%</span>
                             </div>
                         </div>
                     </div>
@@ -305,31 +324,77 @@
             <h2>PORTFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="img/kuromi.png" alt="">
+                    <video class="videop" src="img/doc.mp4"> <onclick="togglePlay(this)"> </video>
                     <div class="overlay">
-                        <a href="PROYECTO KUROMY/kuromitec.html">Primer Proyecto </a>
-                        <p>Kuromitechnology</p>
+                        <h3>Pagina web</h3>
+                        <p>Ortopedia</p>
                     </div>
+                    <button class="animated-button">
+                        <svg viewBox="0 0 24 24" class="arr-2" xmlns="https://rivera-pro.github.io/ortopedia-jr-dev/">
+                          <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                          ></path>
+                        </svg>
+                        <span class="text">Ir pagina</span>
+                        <span class="circle"></span>
+                        <svg viewBox="0 0 24 24" class="arr-1" xmlns="https://rivera-pro.github.io/ortopedia-jr-dev/">
+                          <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                          ></path>
+                        </svg>
+                      </button>
+                      
                 </div>
                 <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
+                    <video class="videop" src="img/cafe.mp4"></video>
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>Pagina web </h3>
+                        <p>La Terraza</p>
                     </div>
+                    <button class="animated-button">
+                        <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                          ></path>
+                        </svg>
+                        <span class="text">Ir pagina</span>
+                        <span class="circle"></span>
+                        <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                          ></path>
+                        </svg>
+                      </button>
+                      
                 </div>
                 <div class="proyecto">
-                    <img src="img/p3.jpg" alt="">
+                    <video class="videop" src="img/gym.mp4"></video>
                     <div class="overlay">
-                        <h3>Diseño Creativo</h3>
-                        <p>Fotografía</p>
+                        <h3>pagina web </h3>
+                        <p>GMY ACTIVITAR</p>
                     </div>
+                    <button class="animated-button">
+                        <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                          ></path>
+                        </svg>
+                        <span class="text">Ir pagina</span>
+                        <span class="circle"></span>
+                        <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                          ></path>
+                        </svg>
+                      </button>
+                      
                 </div>
                 <div class="proyecto">
                     <img src="img/p4.jpg" alt="">
                     <div class="overlay">
                         <h3>Diseño Creativo</h3>
                         <p>Fotografía</p>
+                        
                     </div>
                 </div>
                 <div class="proyecto">
@@ -361,7 +426,7 @@
                      <input type="text" name="nombre" placeholder="Tú Nombre">
                      <input type="text" name="numero" placeholder="Número telefónico">
                      <input type="email" name="email" placeholder="Dirección de correo">
-                     <input type="text"  name="tema" placeholder="Tema">
+                     <input type="text"  name="tema" placeholder="Asunto">
                      <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                      <input  class="botons" type="submit" value="Enviar">  <span class="overlay"></span> 
                 </div>
@@ -395,10 +460,10 @@
             <i class="fa-solid fa-angles-up"></i>
         </a>
         <div class="redes">
-            <a href="https://www.facebook.com/profile.php?id=100088934373559"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.instagram.com/rid3r.prd/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://w.app/dashboard/"><i class="fa-brands fa-whatsapp"></i></a>
-            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100088934373559"  target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/rid3r.prd/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://w.app/dashboard/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/RaiCoder123" target="_blank"><i class="fa-brands fa-github"></i></a>
             <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
     </footer>
